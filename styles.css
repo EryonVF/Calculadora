@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    
+    .calculator {
+    background-color: #333;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .display {
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    }
+    
+    .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    }
+    
+    button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #555;
+    }
+    /* Estilo básico para los botones */
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para los números */
+  .number {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilo para los operadores */
+  .operator {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+  }
+  
+  /* Estilo para el botón de igual */
+  .equals {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+  }
+  
+  /* Estilo para la pantalla de la calculadora */
+  .display {
+    background-color: #0022ff;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  
+  
+  
+  
+  
